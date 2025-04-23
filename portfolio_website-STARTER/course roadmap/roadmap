@@ -1,0 +1,34 @@
+
+
+began this portfolio development by first downgrading npm version to nvm 16.15.0 from v20.17.0,,where it finally worked.,,AFTER
+            RUNNING ON TERMINAL.
+            THIS PROJECT IS USING next.js --
+            /* nextjs is just a framework and an addition to react so, its nothing but a simple jsx code. */
+            and one may need to have some knowledge in javascript and react.js
+FINALLY BEGAN THIS PORTFOLIO DEVELOPMENT: --
+        --BEGAN in pages\index.js where we go step by step through the different components.
+
+1.the styles are already in the components for efficiency.
+        --changed bacground of the webpage as can be seen on default.js in themes folder.
+
+2.Began at Header.js to design the header section.
+3.Next is the Hero section at Hero.js
+4.went to design the projects section at Projects.js
+        --here at projects.js ,you put your own projects, titles and description etc
+        ---for purposes of designing the projects being done go constants\constants.js to put the projects you have done.
+        --to also make changes to the projects section go to constants\constants.js
+        --using the constants.js file makes it so easier to make these changes.
+--in the utility list , you may put links to the website containing your project or code etc.
+
+5.the next section is the technologies used section at Technologies.js
+        --here we are able to design this to suit different needs later on
+        --also check how to use react icons in this technologies section as seen by the use of : DiFirebase, DiReact and DiZend.
+
+6.there after went to Timeline.js to where we have a timeline of the activites we've been doing.it is a bit complicated so follow through keenly.
+
+7.went to Accomplishments.js.Some changes can be made in the const data [] as seen in Accomplishment.js
+
+8.Finished on Footer.js.
+9.Sucessfuly finished and can only be accessed on your browser only for purposes of deploying,,see end of video ON HOW TO DEPLOY
+
+WITH THIS FRAMEWORK YOU ARE ABLE TO DESIGN WEBPAGES BUT DESIGN ACCORDINGLY TO SUIT A GIVEN WEBPAGE CHOICE.
