@@ -147,5 +147,12 @@ export const GridContainer = styled.section`
     row-gap: 2.5rem; /* Use row-gap for flex column */
   }
 
+  /* Media query for medium screens - explicitly set to 2 columns */
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem 1.5rem;
+  }
+
+
 
 `
