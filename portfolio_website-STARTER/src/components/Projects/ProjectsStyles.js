@@ -153,6 +153,43 @@ export const GridContainer = styled.section`
     padding: 3rem 1.5rem;
   }
 
+  /* Media query for large screens - explicitly set to 3 columns */
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+`;
+
+
+export const BlogCard = styled.div`
+  background: ${(props) => props.theme.colors.background2 || 'rgba(23, 31, 50, 0.95)'}; /* Darker, slightly distinct card bg */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35); /* Refined shadow */
+  text-align: left;
+  width: 100%;
+  /* max-width: 380px; /* Let grid columns define max width effectively */
+  min-height: 460px; /* Adjusted min-height for content */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; /* Content inside will manage its own spacing */
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out; /* Smoother ease-out */
+  border: 1px solid ${(props) => props.theme.colors.stroke || 'rgba(255, 255, 255, 0.08)'}; /* Subtle border */
+  overflow: hidden; /* Ensure nothing spills out of rounded corners */
+
+  &:hover {
+    transform: translateY(-8px) scale(1.02); /* More noticeable hover */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.45);
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+    max-width: 450px; /* Max width for single column on mobile */
+    height: auto; /* Allow height to adjust to content */
+    min-height: 0; /* Reset min-height for mobile */
+    margin-bottom: 2.5rem; /* Spacing in flex column mode */
+    text-align: center; /* Center text content for mobile */
+  }
+`;
+
 
 
 `
