@@ -128,6 +128,15 @@ export const Img = styled.img`
   /* border-bottom: 2px solid ${(props) => props.theme.colors.accent1 || '#d0bb57'}; */
 `;
 
+export const GridContainer = styled.section`
+  display: grid;
+  /* Default for smaller screens - let auto-fill decide, potentially 1 or 2 columns */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 3rem;
+  place-items: start stretch; /* Align items to start vertically, stretch horizontally to fill height */
+  column-gap: 2.5rem;
+  row-gap: 3rem;
+
 
 
 `
