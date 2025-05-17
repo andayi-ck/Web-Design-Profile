@@ -1,3 +1,4 @@
+/*
 import styled from 'styled-components';
 
 export const Img = styled.img`
@@ -109,4 +110,24 @@ padding: 2rem;
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+
+
+*/
+
+
+import styled from 'styled-components';
+
+export const Img = styled.img`
+  width: 100%;
+  height: 200px; /* Consider if this fixed height is always best or if aspect-ratio is needed */
+  object-fit: cover;
+  overflow: hidden;
+  border-top-left-radius: 10px; /* Match card radius */
+  border-top-right-radius: 10px; /* Match card radius */
+  /* Optional: if you want a border at the bottom of the image only */
+  /* border-bottom: 2px solid ${(props) => props.theme.colors.accent1 || '#d0bb57'}; */
+`;
+
+
+
 `
