@@ -137,6 +137,15 @@ export const GridContainer = styled.section`
   column-gap: 2.5rem;
   row-gap: 3rem;
 
+  /* Media query for small screens (mobile) */
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items when in single column flex layout */
+    padding: 2rem 1rem;
+    padding-bottom: 0;
+    row-gap: 2.5rem; /* Use row-gap for flex column */
+  }
 
 
 `
