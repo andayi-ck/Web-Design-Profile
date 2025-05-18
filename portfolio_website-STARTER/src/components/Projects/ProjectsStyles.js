@@ -204,6 +204,20 @@ export const TitleContent = styled.div`
   margin-bottom: 0.75rem; /* Space after title block */
 `;
 
+export const HeaderThree = styled.h3`
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: ${(props) => props.theme.colors.header || '#e1eaf2'}; /* Brighter header color */
+  /* padding: 0.5rem 0; */
+  font-size: ${(props) => (props.title ? '1.6rem' : '1.4rem')}; /* Main title on card */
+  line-height: 1.3;
+  word-wrap: break-word;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: ${(props) => (props.title ? '1.75rem' : '1.5rem')};
+  }
+`;
+
 
 
 `
