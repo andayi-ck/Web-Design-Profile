@@ -198,6 +198,12 @@ export const CardContentWrapper = styled.div`
   justify-content: space-between; /* Pushes buttons to bottom if content is short */
 `;
 
+export const TitleContent = styled.div`
+  text-align: center; /* Keep title centered */
+  width: 100%;
+  margin-bottom: 0.75rem; /* Space after title block */
+`;
+
 
 
 `
