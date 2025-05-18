@@ -190,6 +190,14 @@ export const BlogCard = styled.div`
   }
 `;
 
+export const CardContentWrapper = styled.div`
+  padding: 1.5rem; /* Main padding for content inside the card, below the image */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Allows this wrapper to take available space */
+  justify-content: space-between; /* Pushes buttons to bottom if content is short */
+`;
+
 
 
 `
