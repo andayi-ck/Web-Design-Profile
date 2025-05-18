@@ -218,6 +218,20 @@ export const HeaderThree = styled.h3`
   }
 `;
 
+export const CardInfo = styled.p`
+  color: ${(props) => props.theme.colors.textSecondary || 'hsl(210, 15%, 80%)'};
+  font-size: 0.9rem;
+  line-height: 1.75; /* Further increased for better readability */
+  text-align: left;
+  margin-bottom: 1.5rem; /* Space before Stack/Tags section */
+  /* flex-grow: 1; /* Let CardContentWrapper handle overall spacing */
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 0 0.5rem; /* Less horizontal padding on mobile if centered */
+  }
+`;
 
 
 `
