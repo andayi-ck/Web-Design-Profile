@@ -237,3 +237,13 @@ export const StackSection = styled.div`
   margin-bottom: 1.5rem; /* Space before buttons */
 `;
 
+export const StackTitle = styled.h4` // Changed from TitleContent for semantic meaning
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: ${(props) => props.theme.colors.textMuted || 'hsl(210, 10%, 65%)'};
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.75rem;
+`;
+
