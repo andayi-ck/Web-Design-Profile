@@ -266,3 +266,12 @@ export const Tag = styled.li`
   white-space: nowrap; /* Prevent tags from breaking mid-word */
 `;
 
+export const UtilityList = styled.ul`
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center buttons if they don't fill space */
+  /* margin-top: auto; Push to bottom if CardContentWrapper handles it */
+  width: 100%;
+  gap: 1rem; /* Space between buttons */
+`;
