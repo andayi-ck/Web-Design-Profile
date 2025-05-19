@@ -233,5 +233,7 @@ export const CardInfo = styled.p`
   }
 `;
 
+export const StackSection = styled.div`
+  margin-bottom: 1.5rem; /* Space before buttons */
+`;
 
-`
