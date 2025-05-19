@@ -275,3 +275,12 @@ export const UtilityList = styled.ul`
   width: 100%;
   gap: 1rem; /* Space between buttons */
 `;
+
+export const ExternalLinks = styled.a`
+  flex-grow: 1; /* Allow buttons to grow and share space */
+  max-width: 150px; /* Max width for each button */
+  text-align: center;
+  color: ${(props) => props.theme.colors.buttonText || '#FFFFFF'};
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.7rem 1rem;
