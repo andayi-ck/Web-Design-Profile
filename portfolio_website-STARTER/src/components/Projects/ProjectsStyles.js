@@ -247,3 +247,11 @@ export const StackTitle = styled.h4` // Changed from TitleContent for semantic m
   margin-bottom: 0.75rem;
 `;
 
+export const TagList = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+  gap: 0.5rem 0.75rem; /* Row and column gap for tags */
+`;
