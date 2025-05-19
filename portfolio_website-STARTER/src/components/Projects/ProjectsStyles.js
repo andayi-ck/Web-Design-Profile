@@ -255,3 +255,14 @@ export const TagList = styled.ul`
   list-style-type: none;
   gap: 0.5rem 0.75rem; /* Row and column gap for tags */
 `;
+
+export const Tag = styled.li`
+  color: ${(props) => props.theme.colors.tagText || 'hsl(200, 40%, 88%)'};
+  font-size: 0.8rem;
+  background-color: ${(props) => props.theme.colors.tagBackground || 'rgba(255, 255, 255, 0.1)'};
+  padding: 0.35rem 0.9rem;
+  border-radius: 15px;
+  border: 1px solid ${(props) => props.theme.colors.tagBorder || 'rgba(255, 255, 255, 0.15)'};
+  white-space: nowrap; /* Prevent tags from breaking mid-word */
+`;
+
