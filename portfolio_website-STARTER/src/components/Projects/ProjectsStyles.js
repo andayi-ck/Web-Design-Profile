@@ -295,5 +295,12 @@ export const ExternalLinks = styled.a`
   text-decoration: none;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  &:hover {
+    background: ${(props) => {
+    // if (props.children === 'Source') return props.theme.colors.secondaryButtonHover || '#434190';
+    return props.theme.colors.primaryButtonHover || '#2980b9';
+  }};
+  
   
   
