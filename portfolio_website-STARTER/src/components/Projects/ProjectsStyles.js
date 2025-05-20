@@ -289,5 +289,11 @@ export const ExternalLinks = styled.a`
     // if (props.children === 'Source') return props.theme.colors.secondaryButton || '#5A67D8'; // Example
     return props.theme.colors.primaryButton || '#3498db';
   }};
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-out, transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   
   
