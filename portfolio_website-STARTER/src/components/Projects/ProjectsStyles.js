@@ -220,14 +220,14 @@ export const HeaderThree = styled.h3`
 
 export const CardInfo = styled.p`
   color: ${(props) => props.theme.colors.textSecondary || 'hsl(210, 15%, 80%)'};
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   line-height: 1.75; /* Further increased for better readability */
   text-align: left;
   margin-bottom: 1.5rem; /* Space before Stack/Tags section */
   /* flex-grow: 1; /* Let CardContentWrapper handle overall spacing */
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 0.95rem;
+    font-size: 1.25rem;
     text-align: center;
     padding: 0 0.5rem; /* Less horizontal padding on mobile if centered */
   }
@@ -284,3 +284,10 @@ export const ExternalLinks = styled.a`
   font-size: 0.95rem;
   font-weight: 500;
   padding: 0.7rem 1rem;
+  background: ${(props) => {
+    // Example: Different styles for "Code" vs "Source" if needed by checking href or text
+    // if (props.children === 'Source') return props.theme.colors.secondaryButton || '#5A67D8'; // Example
+    return props.theme.colors.primaryButton || '#3498db';
+  }};
+  
+  
