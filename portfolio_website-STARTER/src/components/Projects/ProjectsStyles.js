@@ -304,6 +304,11 @@ export const ExternalLinks = styled.a`
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   }
+
+  &:active {
+    transform: translateY(0px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
   
   
   
