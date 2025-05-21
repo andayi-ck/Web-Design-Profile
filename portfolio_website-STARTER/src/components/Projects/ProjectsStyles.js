@@ -315,7 +315,9 @@ export const Hr = styled.hr`
   width: 50px;
   height: 3px;
   margin: 20px auto;
-  
+  border: 0;
+  background: ${(props) => props.theme.colors.accent1 || '#d0bb57'};
+`;
   
   
   
