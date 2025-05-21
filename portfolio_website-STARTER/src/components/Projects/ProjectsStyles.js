@@ -318,6 +318,11 @@ export const Hr = styled.hr`
   border: 0;
   background: ${(props) => props.theme.colors.accent1 || '#d0bb57'};
 `;
+
+export const Intro = styled.div`
+  width: 170px;
+  margin: 0 auto;
+  color: #dce3e7;
   
   
   
