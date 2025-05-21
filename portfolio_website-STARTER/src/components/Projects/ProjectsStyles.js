@@ -309,6 +309,13 @@ export const ExternalLinks = styled.a`
     transform: translateY(0px);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
+
+// Hr and Intro styled components (if used elsewhere, keep them, otherwise they can be removed if not used in this Projects section)
+export const Hr = styled.hr`
+  width: 50px;
+  height: 3px;
+  margin: 20px auto;
+  
   
   
   
