@@ -324,6 +324,8 @@ export const Intro = styled.div`
   margin: 0 auto;
   color: #dce3e7;
   font-family: 'Droid Serif', serif;
+  font-size: 13px;
+  font-style: italic;
   
   
   
