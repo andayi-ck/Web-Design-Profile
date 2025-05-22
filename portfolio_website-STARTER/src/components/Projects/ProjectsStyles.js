@@ -326,6 +326,8 @@ export const Intro = styled.div`
   font-family: 'Droid Serif', serif;
   font-size: 13px;
   font-style: italic;
+  line-height: 18px;
+`;
   
   
   
